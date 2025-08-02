@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and output
+data/processed/
+data/raw/
+*.csv
+*.xlsx
+*.json
+
+# PyMC3 and model files
+*.trace
+*.npz
+
+# Environment files
+*.env
+.env/
+
+# Python egg and distribution info
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# React build files
+dashboard/frontend/node_mo_
