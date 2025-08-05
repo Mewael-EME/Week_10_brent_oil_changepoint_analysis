@@ -10,6 +10,7 @@ This project applies **Bayesian change point detection** to Brent crude oil pric
 ---
 
 ## 📁 Project Structure
+bash ```
 brent-oil-change-point-analysis/
 │
 ├── 📁 data/
@@ -52,18 +53,13 @@ brent-oil-change-point-analysis/
 │ ├── interim_report.pdf # Task 1 deliverable
 │ ├── final_report.pdf # Final PDF or blog-style report
 │ ├── visuals/ # Saved plots, graphs, model diagnostics
-│ └── screenshots/ # Dashboard screenshots for submission
-│
-├── 📁 references/
-│ ├── bayesian_modeling_papers/ # PDFs or links to key references
-│ ├── policy_analysis_reports/ # Energy policy documents, OPEC references
-│ └── README.md # Summary of key references
+│ 
 │
 ├── .gitignore
 ├── README.md # Project overview, installation, usage
 ├── requirements.txt # Global Python dependencies (PyMC3, pandas, etc.)
 └── environment.yml # Optional: Conda environment file
-
+```
 
 ---
 
@@ -86,14 +82,14 @@ Option 1 – Using `conda`:
 ```bash
 conda env create -f environment.yml
 conda activate brent-oil
-
+```
 Option 2 – Using pip:
 
 ```bash
 python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 
 ⚙️ Run Flask Backend
 cd dashboard/backend
@@ -109,12 +105,14 @@ npm start
 
 
 📘 Notebooks Overview
+```bash
 | Notebook File                           | Purpose                                                  |
 | --------------------------------------- | -------------------------------------------------------- |
 | `01_exploratory_data_analysis.ipynb`    | Load price data, compute log returns, visualize patterns |
 | `02_bayesian_change_point_model.ipynb`  | Use PyMC3 for change point detection                     |
 | `03_event_correlation_analysis.ipynb`   | Associate detected change points with real-world events  |
 | `04_future_extensions_VAR_Markov.ipynb` | Extend using VAR model or Markov regime switching        |
+```
 
 🔬 Example Outputs
 
