@@ -10,7 +10,7 @@ This project applies **Bayesian change point detection** to Brent crude oil pric
 ---
 
 ## 📁 Project Structure
-bash ```
+```
 brent-oil-change-point-analysis/
 │
 ├── 📁 data/
